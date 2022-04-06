@@ -132,20 +132,260 @@ h1{
     text-transform: uppercase;
     width: 626px;
 }
-.ThreeRadios input{
+.ThreeRadios p{
     width: 60px;
     height: 60px;
     background-color: #282b38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     border: 2px solid #363a4d;
 }
-/* ------------------------- Разметка первой секции, её элементов ------------------------- */
+.ThreeRadios p:hover{
+    background-color: #89c249;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.ThreeRadios{
+    display: flex;
+    width: 262px;
+    justify-content: space-between;
+    color: #bfbfbf;
+    margin: 30px 0 20px 50px;
+}
+.TwoInputs{
+    display: flex;
+    margin: 20px 0 20px 50px;
+    width: 526px;
+    justify-content: space-between;
+}
+.TwoInputs div div{
+    display: flex;
+    justify-content: space-between;
+}
+.TwoInputs input{
+    width: 248px;
+    height: 56px;
+    margin-top: 6px;
+    padding-left: 20px;
+    color: #cbcbcb;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+::-webkit-input-placeholder{
+    color: #cbcbcb;
+    font-size: 15px;
+    font-weight: 400;
+}
+.TwoInputs div div a{
+    color: #e58d35;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.TwoInputs p{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.TwoCheckInputs{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 526px;
+}
+.TwoCheckInputs input[type=checkbox]{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    margin-right: 9px;
+}
+.TwoCheckInputsLabels{
+    display: flex;
+    flex-direction: column;
+}
+.TwoCheckInputsLabels div{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    color: white;
+}
+.TwoCheckInputs input[type=checkbox]+label{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.TwoCheckInputs label::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 9px;
+}
+.CheckBoxing{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.CheckBoxing1:checked+.Label1::before {
+    background-color: white;
+    background-image: url(../images/checkedImage.svg);
+}
+.CheckBoxing2:checked+.Label2::before {
+    background-color: white;
+    background-image: url(../images/checkedImage.svg);
+}
+.TwoCheckInputs div p{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.TwoCheckInputs div input{
+    width: 248px;
+    height: 56px;
+    margin-top: 6px;
+    padding-left: 20px;
+    color: #cbcbcb;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+.PhotoUploadDiv{
+    margin: 34px 0 30px 50px;
+}
+.PhotoUploadDiv div{
+    display: flex;
+    width: 526px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.PhotoUploadDiv div a{
+    color: red;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 400;
+}
+.PhotoUploadDiv p{
+    font-size: 15px;
+    color: #fff;
+}
+.PhotoUploadDiv .PhotoUploadButton{
+    width: 526px;
+    height: 43px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px dashed rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+}
+.NextStep{
+    width: 253px;
+    height: 68px;
+    border-radius: 90px;
+    background-color: #e58d35;
+    padding: 23px 22px 22px 33px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+/* ------------------------- Разметка третьей секции, её элементов ------------------------- */
+.Sec3Div{
+    width: 1820px;
+    height: 725px;
+    background-color: #363a4d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 90px 338px 0 338px;
+}
+.Sec3Div h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.OrangeLineWhy{
+    margin-bottom: 51px;
+}
+.FirstRowWhy img{
+    margin-bottom: 22px;
+}
+.SecondRowWhy img{
+    margin-bottom: 22px;
+}
+.FirstRowWhy div{
+    margin-bottom: 22px;
+    width: 263px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.SecondRowWhy div{
+    margin-bottom: 22px;
+    width: 263px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.FirstRowWhy{
+    display: flex;
+    justify-content: space-between;
+    height: 179px;
+}
+.SecondRowWhy{
+    display: flex;
+    justify-content: space-between;
+    height: 179px;
+    margin-top: 58px;
+}
+/* ------------------------- Разметка четвертой секции, её элементов ------------------------- */
+.Sec4Div{
+    width: 1311px;
+    height: 794px;
+    text-align: center;
+    padding-top: 97px;
+}
+.Sec4Div h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.GreenLine{
+    margin: 19px 0 49px 0;
+}
+.TwoPointFive{
+    font-size: 45px;
+    color: white;
+}
+.Kilograms{
+    color: white;
+}
+.CostFrom{
+    color: #a3a3a3;
+    font-size: 22px;
+}
+.GeneralDivDelivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------- Разметка пятой секции, её элементов ------------------------- */
 
-/* ------------------------- Разметка первой секции, её элементов ------------------------- */
+/* ------------------------- Разметка шестой секции, её элементов ------------------------- */
 
-/* ------------------------- Разметка первой секции, её элементов ------------------------- */
-
-/* ------------------------- Разметка первой секции, её элементов ------------------------- */
-
-/* ------------------------- Разметка первой секции, её элементов ------------------------- */
+/* ------------------------- Разметка седьмой секции, её элементов ------------------------- */
 
 /* ------------------------- Разметка подвала сайта, его элементов ------------------------- */
