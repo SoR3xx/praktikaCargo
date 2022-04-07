@@ -382,8 +382,148 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.UsualAuto{
+    margin: 0 30px 0 45px;
+}
+.Plane{
+    margin: 0 45px 0 30px;
+}
+.FrameSec4{
+    width: 360px;
+    height: 482px;
+    border-radius: 20px;
+    background-color: #363a4d;
+    display: flex;
+    flex-direction: column;
+}
+.FrameSec4:hover{
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.26);
+    cursor: pointer;
+}
+.FrameSec4 h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 27px 0 12px 0;
+    color: white;
+}
+.FrameSec4 .CalendarClass{
+    display: flex;
+    width: 215px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.ButtonsDivSec4{
+    display: flex;
+    margin-top: 20px;
+    align-self: center;
+    width: 320px;
+}
+.ButtonsDivSec4 .LeaveRequest{
+    padding: 14px 18px;
+    background-color: #e58d35;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 90px;
+}
+.ButtonsDivSec4 .ReadMore{
+    padding: 14px 28px;
+    background-color: none;
+    border: 1px solid #e58d35;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 90px;
+    margin-left: 14px;
+}
 /* ------------------------- Разметка пятой секции, её элементов ------------------------- */
-
+.Sec5Div{
+    width: 1920px;
+    background-color: #363a4d;
+    border-radius: 20px;
+    padding: 97px 248px 0 249px; 
+    height: 794px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sec5Div h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 125%;
+    color: white;
+    text-transform: uppercase;
+}
+.OrangeLineSec5{
+    margin: 19px 0 49px 0;
+}
+.BuyingStuffDiv{
+    width: 360px;
+    height: 482px;
+    background-image: url(../images/BuyingStuff.png);
+    padding: 250px 23px 0 30px;
+    margin-left: 45px;
+}
+.GeneralDivService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+}
+.GeneralDivService div{
+    border-radius: 20px;
+}
+.GeneralDivService div:hover{
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.26);
+    cursor: pointer;
+}
+.DeffendDiv{
+    width: 360px;
+    height: 482px;
+    background-image: url(../images/DeffendCargo.png);
+    padding: 250px 23px 0 30px;
+    margin: 0 30px;
+}
+.RentAreaDiv{
+    width: 360px;
+    height: 482px;
+    background-image: url(../images/RentArea.png);
+    padding: 250px 23px 0 30px;
+    margin-right: 45px;
+}
+.GeneralDivService h4{
+    color: white;
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.Sec5Div p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 28px;
+}
+.Sec5Div .GeneralDivService div a{
+    padding: 14px 28px;
+    background-color: none;
+    border: 1px solid #e58d35;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 90px;
+    display: flex;
+    width: 140px;
+    height: 50px;
+}
+.Sec5Div .GeneralDivService div a:hover{
+    transform: scale(1.1);
+}
 /* ------------------------- Разметка шестой секции, её элементов ------------------------- */
 
 /* ------------------------- Разметка седьмой секции, её элементов ------------------------- */
